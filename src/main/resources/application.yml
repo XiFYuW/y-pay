@@ -1,0 +1,12 @@
+system:
+  wx-cre-path:
+  notify-url:
+logging:
+  level:
+    root: INFO
+mybatis-plus:
+  mapper-locations: classpath:mappers/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 30
